@@ -1,0 +1,11 @@
+<script lang="ts">
+    defineMetadata({
+        selector: 'app-root'
+    });
+
+    const title = 'ng-realworld';
+</script>
+
+<template>
+    <h1>Welcome to {{ title }}!</h1>
+</template>
