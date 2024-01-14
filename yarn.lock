@@ -121,7 +121,7 @@
     ora "5.4.1"
     rxjs "7.8.1"
 
-"@angular/animations@^17.1.0-next.0":
+"@angular/animations@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-17.1.0-rc.0.tgz#f507aa284b838c4d518f61f43f0bcddc6b9893b0"
   integrity sha512-SIfg2gCbyuV+YlC6cYvYusnxTOfy5VDc8UHLFgVfKzFDsUFexRgEcWL+4tEq3Zt6rnykemfJ9kNXEmvDvLjCew==
@@ -152,14 +152,14 @@
     symbol-observable "4.0.0"
     yargs "17.7.2"
 
-"@angular/common@^17.1.0-next.0":
+"@angular/common@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-17.1.0-rc.0.tgz#4f0e42cd329eb46713c77e75e9c536bddc585575"
   integrity sha512-T6gCueT0lmug7hmcP2EJgdnQYr5OYRZqwfxIGHfYGQZLL8e9UWdCukMQMLaWKUnfgH3jvDilMEOo0q5wdKy8yw==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/compiler-cli@^17.1.0-next.0":
+"@angular/compiler-cli@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-17.1.0-rc.0.tgz#98eaf0afe6c12f7984fa5b690ab082a4c8c5b776"
   integrity sha512-gzdmF/K3fwvrJh312/Wu7zeO6qKUEF5Mt3SE5nweXU3jaYNvugrBZpkwNzszEDXP3JQwJSE9yoT5WyRbpb4nYg==
@@ -173,42 +173,42 @@
     tslib "^2.3.0"
     yargs "^17.2.1"
 
-"@angular/compiler@^17.1.0-next.0":
+"@angular/compiler@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-17.1.0-rc.0.tgz#3f088f923c47972977b0bf1591c95d353510acef"
   integrity sha512-Zm+0aDwVAUlALsaxBS1kl9Zrt8uHvs0NfCz+Zi9eym+TR5HSpCdTjOB5eI8U4FmfGTBDHJ0B1IPVzSbJ6zjUkQ==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^17.1.0-next.0":
+"@angular/core@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-17.1.0-rc.0.tgz#3908621fbd819c004ac0165941583e09b29f40d9"
   integrity sha512-5KABHxe3dnxvvnnjQDg++9gcuV8R4KKQJWEz7eOL2dxw5Olj9SoZgo+Ux9iGeI3L+XriYUUd9jHg6/UsNRXTdQ==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/forms@^17.1.0-next.0":
+"@angular/forms@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-17.1.0-rc.0.tgz#3e78816a1eaef3d56f7f03d66272df4c8462a4a6"
   integrity sha512-C+cda4QcjsoYIZfGuA9zpIuy1V6zUe1KjSlFmAAtD9AdoGdZU4ttaTXBctxsE/K8udtER2C3UdEfpwRmbENehg==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser-dynamic@^17.1.0-next.0":
+"@angular/platform-browser-dynamic@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-17.1.0-rc.0.tgz#7aba7a40d04e1d103f0446f46699666aa5bfd121"
   integrity sha512-wuMlPUSEkaJTz9UIbixBL+SNmie09+FEzu9nd8oAXSuznGez6vC1za7KAiubr782fTg/g5M3X2hrpOgqDvcmnQ==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@^17.1.0-next.0":
+"@angular/platform-browser@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-17.1.0-rc.0.tgz#1903d54acc0b7fbd8f88bc60e9684fbc7bf040e5"
   integrity sha512-kgBkqn9B2d80iDGG/zO+lUv8P7W/JPzV9oJQ2fhvE8Aa6/GLb5lK/FQ++pJ7eSO0+Nei/lfW2Eq2NrSnIQ5KfQ==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/router@^17.1.0-next.0":
+"@angular/router@^17.1.0-rc.0":
   version "17.1.0-rc.0"
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-17.1.0-rc.0.tgz#8fc6a730cae8626cd002e76638cd05841b5f93e2"
   integrity sha512-PeoP0AYH2VJnbQ+pY0h1eD9MuUkb6+8X41SAe3/1+rtx/Y/3orzwE+QiMrD2p59IXAaNYBy3pSQ6YdI91gaHwQ==
@@ -4580,6 +4580,16 @@ postcss@8.4.33, postcss@^8.2.14, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+prettier-plugin-organize-imports@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-organize-imports/-/prettier-plugin-organize-imports-3.2.4.tgz#77967f69d335e9c8e6e5d224074609309c62845e"
+  integrity sha512-6m8WBhIp0dfwu0SkgfOxJqh+HpdyfqSSLfKKRZSFbDuEQXDDndb8fTpRWkUrX/uBenkex3MgnVk0J3b3Y5byog==
+
+prettier@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.1.tgz#babf33580e16c796a9740b9fae551624f7bfeaab"
+  integrity sha512-qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==
 
 pretty-bytes@^5.3.0:
   version "5.6.0"
