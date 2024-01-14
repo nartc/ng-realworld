@@ -1,0 +1,49 @@
+<script lang="ts">
+
+import { inject } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { ReactiveFormsModule, FormBuilder, FormsModule, NgModel, DefaultValueAccessor } from '@angular/forms';
+
+import Test from './(layout)/ui/test.component';
+import LayoutHeader from './(layout)/ui/layout-header.ng'
+import UiFooter from '../components/ui-layout/ui-footer.ng';
+
+defineMetadata({
+    imports: [RouterOutlet, ReactiveFormsModule, Test]
+});
+
+let test = 'hi';
+const fb = inject(FormBuilder);
+
+const form = fb.group({
+    firstName: [''],
+    lastName: ['']
+})
+
+function onSubmit() {
+    console.log(form);
+}
+
+</script>
+
+<template>
+    <LayoutHeader />
+
+    <app-test />
+
+    <input type="text" [(ngModel)]="test" />
+    {{test}}
+    
+    <form [formGroup]="form" (submit)="onSubmit()">
+        <label for="firstName">FirstName:</label>
+        <input type="text" formControlName="firstName" />
+
+        <label for="lastName">LastName:</label>
+        <input type="text" formControlName="lastName" />
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <router-outlet />
+    <UiFooter />
+</template>

@@ -15,6 +15,13 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@analogjs/content@^0.2.30-rc.0":
+  version "0.2.30-rc.0"
+  resolved "https://registry.yarnpkg.com/@analogjs/content/-/content-0.2.30-rc.0.tgz#d03ee99191c8d200f104ad477b7715f5f1717c5e"
+  integrity sha512-7INMUyUx2m0e1gUInbIhAUBpRjbLIrwELPU9ZugraLsSaCZjGLdqwRynZp29qwdFc6PCV+qn8pADzlroR7T8Fg==
+  dependencies:
+    tslib "^2.3.0"
+
 "@analogjs/platform@^0.2.30-rc.0":
   version "0.2.30-rc.0"
   resolved "https://registry.yarnpkg.com/@analogjs/platform/-/platform-0.2.30-rc.0.tgz#7c1a7cc2045dbcb0e216d83d3614ef5753a9f509"
@@ -23,6 +30,15 @@
     "@analogjs/vite-plugin-angular" "^0.2.30-rc.0"
     "@analogjs/vite-plugin-nitro" "^0.2.30-rc.0"
     nitropack "^2.6.0"
+
+"@analogjs/router@^0.2.30-rc.0":
+  version "0.2.30-rc.0"
+  resolved "https://registry.yarnpkg.com/@analogjs/router/-/router-0.2.30-rc.0.tgz#4f70d4b30d0b0ba2ff2debbfdbd3bdfc2fa8c970"
+  integrity sha512-pGGoyKKA7x5FeLDljHYSgQZupTiNWCAN83TNCNlpntjqoSY4alcJU1FFTJ03FCus7+Pbu4LVVwrWjsbehczbqQ==
+  dependencies:
+    tslib "^2.0.0"
+  optionalDependencies:
+    "@analogjs/content" "^0.2.30-rc.0"
 
 "@analogjs/vite-plugin-angular@^0.2.30-rc.0":
   version "0.2.30-rc.0"
@@ -9346,7 +9362,7 @@ tsconfig-paths@^4.0.0, tsconfig-paths@^4.1.2:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@2.6.2, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0:
+tslib@2.6.2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==

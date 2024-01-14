@@ -69,6 +69,7 @@
 					"configurations": {
 						"development": {
 							"buildTarget": "ng-realworld:build:development",
+							"force": true,
 							"hmr": true
 						},
 						"production": {

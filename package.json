@@ -9,6 +9,7 @@
 	},
 	"private": true,
 	"dependencies": {
+		"@analogjs/router": "^0.2.30-rc.0",
 		"@angular/animations": "^17.1.0-rc.0",
 		"@angular/common": "^17.1.0-rc.0",
 		"@angular/compiler": "^17.1.0-rc.0",

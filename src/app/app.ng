@@ -1,11 +1,12 @@
 <script lang="ts">
-    defineMetadata({
-        selector: 'app-root'
-    });
+    import { RouterOutlet } from '@angular/router';
 
-    const title = 'ng-realworld';
+    defineMetadata({
+        selector: 'app-root',
+        imports: [RouterOutlet]
+    });
 </script>
 
 <template>
-    <h1>Welcome to {{ title }}!</h1>
+    <router-outlet />
 </template>
